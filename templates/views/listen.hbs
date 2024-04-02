@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Listen Page</title>
+</head>
+
+<body>
+    {{>navBar}}
+    <div class="audio-container space-y-12">
+        <h1 class="text-[24px] ">PlayList</h1>
+        <div>
+            <h3>Habibi-Ya-Muhammad</h3>
+        <audio controls>
+            <source src="/audio/habibi.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+        
+        <div>            
+            <h3>Allah Hu Allah</h3>
+        <audio controls>
+            <source src="/audio/mesut.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+    </div>
+</body>
+</html>
